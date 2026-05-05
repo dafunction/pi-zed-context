@@ -1,0 +1,22 @@
+{
+  "name": "pi-zed-context",
+  "version": "0.1.0",
+  "description": "Pi extension that exposes active Zed editor file and selection context to the agent.",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "zed"
+  ],
+  "license": "MIT",
+  "author": "Alec G <gallowayalec@gmail.com>",
+  "type": "module",
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*",
+    "typebox": "*"
+  },
+  "pi": {
+    "extensions": [
+      "./zed-context.ts"
+    ]
+  }
+}
