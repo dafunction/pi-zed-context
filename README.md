@@ -56,10 +56,15 @@ Or try it for one run:
 pi -e /absolute/path/to/pi-zed-context
 ```
 
-If published via git or npm:
+Install from GitHub:
 
 ```bash
-pi install git:github.com/USER/pi-zed-context
+pi install git:github.com/dafunction/pi-zed-context
+```
+
+From a future npm publish:
+
+```bash
 pi install npm:pi-zed-context
 ```
 
