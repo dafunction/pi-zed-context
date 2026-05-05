@@ -1,6 +1,6 @@
 # pi-zed-context
 
-A [Pi](https://pi.dev) extension that makes your active Zed editor file and selection available to the agent.
+A [Pi](https://pi.dev) extension that makes your active [Zed](https://zed.dev/) editor file and selection available to the agent.
 
 The extension registers a `zed_context` tool and also injects the current Zed editor context into the system prompt when available. This lets you ask things like “fix this code” or “explain my selection” while working in Zed.
 
@@ -29,7 +29,7 @@ In particular, this project follows the same general approach of reading Zed's l
 ## Requirements
 
 - Pi coding agent
-- [Zed editor](https://zed.dev/)
+- Zed editor
 - `sqlite3` CLI available on your `PATH`
 
 The extension reads Zed's local state database. By default it checks common macOS and Linux paths:
